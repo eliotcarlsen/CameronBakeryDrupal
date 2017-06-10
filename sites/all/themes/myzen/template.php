@@ -16,7 +16,7 @@
  * @param string $hook
  *   The name of the template being rendered ("maintenance_page" in this case.)
  */
-/* -- Delete this line if you want to use this function
+
 function myzen_preprocess_maintenance_page(&$variables, $hook) {
   // When a variable is manipulated or added in preprocess_html or
   // preprocess_page, that same work is probably needed for the maintenance page
@@ -34,7 +34,7 @@ function myzen_preprocess_maintenance_page(&$variables, $hook) {
  * @param string $hook
  *   The name of the template being rendered ("html" in this case.)
  */
-/* -- Delete this line if you want to use this function
+
 function myzen_preprocess_html(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
@@ -54,7 +54,7 @@ function myzen_preprocess_html(&$variables, $hook) {
  * @param string $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
+
 function myzen_preprocess_page(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }

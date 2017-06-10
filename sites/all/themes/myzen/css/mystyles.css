@@ -1,24 +1,35 @@
-h1{
-  color: red;
+body{
+  background: #F5F5F5;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+a, a:link {
+  color: #f4a742;
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
 }
 h2{
-  color: red;
+  margin-bottom: 4px;
 }
-h3{
-  color: red;
+p {
+  margin-top: 4px;
+  margin-bottom: 10px;
 }
-h4{
-  color: red;
+.field-type-text-with-summary p {
+  background: #ededed;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-h5{
-  color: red;
-}
-h6{
-  color: red;
-}
-p{
-  color: red;
-}
-title{
-  color: red;
+#block-user-login {
+  float: left;
+  background: #ededed;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
