@@ -33,3 +33,19 @@ p {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+.content-wide{
+  width: 100%;
+  background-color: #ccc;
+  border-bottom: 1px solid #ffffff;
+}
+img {
+  width: 25%;
+}
+.content-narrow{
+  width: 1145px;
+  margin: 0 auto;
+
+}
+.header__site-name{
+
+}
