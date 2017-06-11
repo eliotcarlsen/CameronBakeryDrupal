@@ -95,17 +95,7 @@
         $sidebar_first_class = 'layout-3col__left-sidebar';
       endif;
     ?>
-    <?php if ($sidebar_first): ?>
-      <aside class="<?php print $sidebar_first_class; ?>" role="complementary">
-        <?php print $sidebar_first; ?>
-      </aside>
-    <?php endif; ?>
 
-    <?php if ($sidebar_second): ?>
-      <aside class="<?php print $sidebar_second_class; ?>" role="complementary">
-        <?php print $sidebar_second; ?>
-      </aside>
-    <?php endif; ?>
 
   <div class="layout-3col layout-swap">
     <main class="<?php print $content_class; ?>" role="main">
@@ -126,7 +116,17 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </main>
+    <?php if ($sidebar_first): ?>
+      <aside class="<?php print $sidebar_first_class; ?>" role="complementary">
+        <?php print $sidebar_first; ?>
+      </aside>
+    <?php endif; ?>
 
+    <?php if ($sidebar_second): ?>
+      <aside class="<?php print $sidebar_second_class; ?>" role="complementary">
+        <?php print $sidebar_second; ?>
+      </aside>
+    <?php endif; ?>
 
 
   </div>

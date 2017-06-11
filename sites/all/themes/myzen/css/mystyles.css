@@ -23,7 +23,6 @@ p {
 .field-type-text-with-summary p {
   background: #ededed;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 4px;
 }
 #block-user-login {
@@ -39,7 +38,7 @@ p {
   border-bottom: 1px solid #ffffff;
 }
 img {
-  width: 25%;
+  width: 50%;
 }
 .content-narrow{
   width: 1145px;
