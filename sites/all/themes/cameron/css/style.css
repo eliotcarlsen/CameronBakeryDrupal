@@ -2,5 +2,12 @@
   color: blue;
 }
 body{
-  background-color: red;
+  background-color: #ccc;
+}
+#block-user-login {
+  float: left;
+  background: #ededed;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
